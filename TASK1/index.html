@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Royal Hotel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img style="height: 100px" src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img style="width: 200px;" src="images/mhthali.png"alt="" />
+            
+          <div class="content">
+
+            <h3>Maharashtrain Thali</h3>
+            <div class="price">₹ 450/-</div>
+
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img
+          style="width: 180px"; src="images/rjthali.png"alt=""/>
+
+
+            <div class="content">
+
+              <h3>Rajasthani Thali</h3>
+              <div class="price">₹ 400/-</div>
+  
+            </div>
+        </div>
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img style="width: 180px;" src="images/gjthali.png"alt=""/>
+            <div class="content">
+
+              <h3>Gujrati Thali</h3>
+              <div class="price">₹ 400/-</div>
+  
+            </div>
+        </div>
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img style="width: 180px;" src="images/pjthali.png"alt=""/>
+            <div class="content">
+
+              <h3>Punjabi Thali</h3>
+              <div class="price">₹ 400/-</div>
+  
+            </div>
+        </div>
+
+          <a href="#" class="btn">Check Out Now</a>
+      </div>
+    </header>
+
+
+<!-- home -->
+
+<section class="home" id="home">
+
+  <div class="content">
+
+    
+    <h5 style="padding-top: 100px;">Best Hotel In India</h5>
+    <p>We are one of the best hotels in INDIA</p>
+      <a href="#" class="btn">Visit Now</a>
+  </div>
+
+</section>
+
+
+<!-- about -->
+
+<section class="about" id="about">
+  <h1 class="heading">
+    <span>about</span>
+    us
+  </h1>
+  <div class="row">
+    <div class="image">
+      <img src="images/h5.png" alt="">
+    </div>
+    <div class="content">
+      <h3>Our service is our Uniqueness</h3>
+      <p>We provide best services to our customers.Our meal and all services make people feel very happy and we always feel happy to serve the people. </p>
+        <a href="#" class="btn">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- menu -->
+
+<section class="menu" id="menu">
+
+  <h1 class="heading">
+    our <span>menu</span>
+  </h1>
+  <div class="box-container">
+
+    <div class="box">
+      <img src="images/bf-1.png" alt="">
+      <h3>All Types Of Breakfasts</h3>
+      <div class="price"> ₹ 60</div>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+
+
+    <div class="box">
+      <img src="images/thali.png" alt="">
+      <h3>All Types Of Thalis</h3>
+      <div class="price"> ₹ 300 - ₹ 400</div>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="box">
+      <img src="images/mhmeal.png" alt="">
+      <h3>Maharashtrian Meal</h3>
+      <div class="price"> ₹ 400 - ₹ 500</div>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="box">
+      <img src="images/nimeal.png" alt="">
+      <h3>North Indian Meal</h3>
+      <div class="price"> ₹ 300 - ₹ 400</div>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="box">
+      <img src="images/simeal.png" alt="">
+      <h3>South Indian Meal</h3>
+      <div class="price"> ₹ 400 - ₹ 500</div>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="box">
+      <img src="images/isweets.png" alt="">
+      <h3>Sweets</h3>
+      <div class="price"> ₹ 400 - ₹ 500</div>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- contact -->
+
+
+<section class="contact" id="contact">
+
+  <h1 class="heading"><span>contact</span> us </h1>
+  <div class="row">
+
+    <!-- <iframe class="newimage" src="images/hotel2.png" frameborder="0" allowfullscreen="" loading="lazy"></iframe> -->
+    <!-- <h3 class="heading">Nashik</h3> -->
+    <img class="newimage" src="images/hotel2.png" alt="">
+    <form action="">
+
+      <div class="inputBox">
+        <span class="fas fa-user" style="margin-left: 0px;">
+          <input type="text" placeholder="name">
+        </span>
+      </div>
+
+      <div class="inputBox">
+        <span class="fas fa-envelope" style="margin-left: 0px;">
+          <input type="email" placeholder="email">
+        </span>
+      </div>
+
+      <div class="inputBox">
+        <span class="fas fa-phone" style="margin-left: 0px;">
+          <input type="number" placeholder="number">
+        </span>
+      </div>
+      <input type="submit" value="contact now" class="btn">
+    </form>
+
+  </div>
+</section>
+
+
+
+<section class="footer">
+
+  <div class="credit">Created By <span>Rajvardhan R. Patil</span> | All Rights Reserved</div>
+
+</section>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
